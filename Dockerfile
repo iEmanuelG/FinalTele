@@ -7,3 +7,7 @@ RUN rm /var/www/html/index.html
 RUN cp /FinalTele/index.html /var/www/html/
 EXPOSE  80
 
+
+#CONSTRUIR sudo docker build -t wikinutil:ver1 .
+
+#EJECUTAR sudo docker run -d -p 80:80 wikinutil:ver1 apache2ctl -D FOREGROUND
