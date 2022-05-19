@@ -1,11 +1,7 @@
 En este repositorio se encuentran dos archivos, el primero es un **archivo html** llamado index.html, el cual tiene un codigo simple en html de una pagina web sobre una wiki con temas inutiles, con diferentes enlaces que redireccionan a un tutorial para el tema seleccionado.
 
 El archivo **Dockerfile** es un archivo que construye una imagen en un docker y la ejecuta desde una terminal usando los dos comandos a continuacion
-*NOTA: La maquina donde se ejecute el archivo dockerfile debe tener instalado docker y git, para hacer esto se usan los siguientes comandos*
-
-*sudo apt install docker-ce*
-
-*sudo apt install git*
+*NOTA: La maquina donde se ejecute el archivo dockerfile debe tener instalado docker y git*
 
 
 **CONSTRUIR: sudo docker build -t wikinutil:ver1 .**
