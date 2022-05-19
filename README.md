@@ -5,8 +5,10 @@ El archivo **Dockerfile** es un archivo que construye una imagen en un docker y 
 
 
 **CONSTRUIR: sudo docker build -t wikinutil:ver1 .**
+
 Este comando construye la imagen que se encuentra en el dockerfile
 
 
 **EJECUTAR: sudo docker run -d -p 80:80 wikinutil:ver1 apache2ctl -D FOREGROUND**
+
 Este comando ejecuta esa imagen y la sube al puerto 80, donde podemos ver la pagina montada ya en el servidor local, se puede ver poniendo *localhost* en el navegador.
